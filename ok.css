@@ -1,3 +1,6 @@
+.header {
+    
+}
 .nav {
     display: flex;
     align-items: center;
@@ -14,10 +17,10 @@
 .exit-button {
     cursor: pointer;
     background-color: none;
-    font-size: 40px;
+    height: 40px;
     border: none;
     background-color: white;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .formP {
@@ -34,7 +37,7 @@ input {
     display: block;
     width: 100%;
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 input::placeholder {
@@ -46,7 +49,7 @@ input::placeholder {
 .buttonClass {
      
         display: inline-block;
-        margin-left: 350px;
+        margin-left: 200px;
         margin-top: 30px;
         padding: 25px 80px;
         color: white;
@@ -65,7 +68,7 @@ input::placeholder {
     }
     
     #myInput {
-        padding: 10px;
+        padding: 5px;
         width: 650px;
         border: none;
         border-bottom: 1px solid #ccc;
@@ -73,7 +76,7 @@ input::placeholder {
     }
 
     #myInput1 {
-        padding: 10px;
+        padding: 5px;
         width: 650px;
         border: none;
         border-bottom: 1px solid #ccc;
@@ -129,14 +132,19 @@ input::placeholder {
 
     #myDropdown1 li {
         padding: 5px;
-        height: 100%;
+        height: 10px;
         width: 650px;
         font-size: 20px;
-    
+    }
+
+    #myDropdown1 li:hover {
+        font-weight: bold;
+        cursor: pointer;
     }
 
     .last {
-        padding: 10px;
+        padding: 2px;
+        width: 650px;
     }
     
 
