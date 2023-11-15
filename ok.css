@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,700;1,600&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,700;1,600&display=swap');
+          
 .header {
-    
+    margin-left: 30px;
 }
 .nav {
     display: flex;
@@ -10,7 +11,7 @@
 }
 
 .formH2 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Playfair Display';
     font-weight: lighter;
@@ -35,7 +36,7 @@
 
 input {
     border: none;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.536);
+    border-bottom: 1px solid rgba(164, 161, 161, 0.536);
     display: block;
     width: 100%;
     font-size: 20px;
@@ -44,16 +45,16 @@ input {
 
 input::placeholder {
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 10px;
     font-family: 'Lato', sans-serif;
 }
 
 .buttonClass {
      
         display: inline-block;
-        margin-left: 200px;
+        margin-left: 350px;
         margin-top: 30px;
-        padding: 25px 80px;
+        padding: 25px 50px;
         color: white;
         background-color: #32C9D6;
         font-size: 20px;
@@ -83,6 +84,7 @@ input::placeholder {
         border: none;
         border-bottom: 1px solid #ccc;
         cursor: pointer;
+        margin-left: 0px;
     }
 
     #myDropdown {
