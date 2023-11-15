@@ -1,0 +1,63 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formH2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: lighter;
+}
+
+.exit-button {
+    cursor: pointer;
+    background-color: none;
+    font-size: 40px;
+    border: none;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.formP {
+    font-family: monospace;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight:normal;
+    margin-top: 30px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.536);
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+input::placeholder {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.buttonClass {
+     
+        display: inline-block;
+        margin-left: 350px;
+        margin-top: 30px;
+        padding: 25px 80px;
+        color: white;
+        background-color: #32C9D6;
+        font-size: 20px;
+        font-family: 'Times New Roman';
+        cursor: pointer;
+    }
+
+
+
+
+
+
